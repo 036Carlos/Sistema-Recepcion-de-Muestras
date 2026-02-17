@@ -16,17 +16,17 @@ import { GrFormPrevious, GrCaretNext } from "react-icons/gr";
 import { DiCodepen } from "react-icons/di";
 import { CiMoneyBill } from "react-icons/ci";
 
-import logo from "../assets/inventarioslogo.png";
+import logo from "../assets/logo_senasa.jpg";
 import fondo from "../assets/fondo1.svg";
 
 export const v = {
   iconoreportes: TbReportAnalytics,
-  iconoempresa: FaBuilding,
-  iconocategorias: MdOutlineCategory,
+  iconoempresa: FaBuilding, //icono empresa se cambio por icono laboratorio//
+  iconocategorias: MdOutlineCategory, //       
   iconomarca: TbBrandBitbucket,
   iconoprecioventa: FaRegMoneyBillAlt,
-  iconopreciocompra: CiMoneyBill,
-  iconocodigointerno: DiCodepen,
+  iconopreciocompra: CiMoneyBill, 
+  iconocodigomuestra: DiCodepen,
   iconocodigobarras: AiOutlineBarcode,
   iconostockminimo: BiBellMinus,
   iconostock: RiStockLine,
